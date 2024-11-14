@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title></title>
+        <script language="javaScript">
+    /*     var person = {
+    name:"clinton",age : 21, color:"black" 
+}
+
+var x = person.age;
+var y = person['age'];
+
+document.write(x,'<br>');
+document.write(y);
+
+
+function person(name,age){
+    this.name = name;
+    this.age = age;
+    this.yearOfBorn = calculate;
+}
+function calculate(){
+    return 2024 - this.age;
+}
+
+var p = new person("Clinton",21);
+document.write(p.yearOfBorn());
+
+var c1 = ["html","CSS"];
+var c2 = ["python","javaScript"];
+var courses = c1.concat(c2);
+document.write(courses,"<br>");
+document.write(courses.length,'<br>');
+
+var person = []; //empty array
+person["name"] = 'john';
+person['age'] = 42;
+document.write(person['age'],'<br>');
+
+document.write(Math.PI,'<br>');
+
+var number = Math.sqrt(16);
+document.write(number,'<br>');
+
+var squareRoot = prompt("enter a number");
+var root = Math.sqrt(squareRoot);
+document.write(root);
+
+function myAlert(){
+    alert('Hi');
+}
+setInterval(myAlert,3000);
+
+
+var d = new Date();
+var hours = d.getHours();
+var date = d.getDate();
+var month = d.getMonth();
+document.write(hours,'<br>');
+document.write(date,'<br>');
+document.write(month,'<br>');
+document.write(d,'<br>');
+
+var node = document.createTextNode('some new text');
+document.write(node)
+
+window.onload = function(){
+    var p = document.createElement('p');
+    var node = document.createTextNode('some new text');
+    p.appendChild(node);
+    var div = document.getElementById('demo');
+    div.appendChild(p);
+}
+
+
+var t = setInterval(move, 5000);
+var pos = 0;
+var box = document.getElementById('box');
+
+function move() {
+    pos += 1;
+    box.style.left = pos + 'px';
+}
+
+function clin(arr){
+    for(let k = 2; k < arguments.length; k++){
+        let num = arguments[k];
+        if (arr.indexOf(num) === -1){
+            return false;
+        }
+    }
+    return true;
+}
+
+let x = [2, 4, 6, 7];
+
+document.write(clin(x,2,4,7));
+console.log(clin(x,6,4,9));
+
+
+function magic(...nums) {
+  let sum = 0;
+  nums.filter(n => n % 2 == 0).map(el => sum+= el);
+  return sum;
+}
+document.write(magic(1, 2, 3, 4, 5, 6));
+
+function myFunction(w,x,y,z){
+    document.write(w+x+y+z);
+}
+var args = [1,2,3];
+myFunction.apply(null,args.concat(4),);
+
+
+let nums = [3, 4, 5];
+//spread operators '..."
+let all = [1, 2, ...nums, 6];
+document.write(all[3]);
+
+
+class rectangle {
+    constructor(height, width){
+        this.height = height;
+        this.width = width;
+    }
+}
+const square = new rectangle(5,5);
+const poster = new rectangle(2,3);
+document.write(square.height);
+*/
+const arr = ['3', '5', '8'];
+document.write(
+  arr.find(x => x == 8).repeat(2)
+);
+
+
+</script>
+
+<style>
+ #container{
+    width: 200px;
+    height: 200px;
+    background: green;
+    position: relative;
+}
+ #box {
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: absolute;
+ }
+
+</style>
+
+    </head>
+    <body>
+        <div id="container">
+            <div id="box"> </div>
+        </div>
+
+    </body>
+</html>
