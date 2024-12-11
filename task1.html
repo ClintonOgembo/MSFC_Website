@@ -97,13 +97,30 @@
         </dl>
       </p>
       <p>We are praying that going forward our club will grow in all directions and our players and other members will gain much more.</p>
-    <form>
+    <form action="/js file" method="post">
         <h3>Tell us more about You</h3>
         Full Name:
             <input type="text" name="name" id="name" placeholder="Enter your official names" required><p>
         Email:
-            <input type="text" id="email" name="email" placeholder="Enter your email" required>
-        <
+            <input type="text" id="email" name="email" placeholder="Enter your email" required><p>
+        DOB:
+            <input type="number" id="dob" name="dob" placeholder="Enter your date of birth" required><p>
+        Contact:
+            <input type="number" id="contact" name="contact" placeholder="Enter your phone number" required><p>
+        Gender:<p>
+            <input type="radio" id="male" name="gender" value="Male">Male<p>
+            <input type="radio" id="female" name="gender" value="Female">Female<p>
+        Position:
+                <select id="position" name="position">
+                    <option value="Defender">Defender</option>
+                    <option value="Midfielder">Midfielder</option>
+                    <option value="Winger">Winger</option>
+                    <option value="Striker">Striker</option>
+                    <option value="Stakeholder">Stakeholder</option>
+                </select><p>
+        Any Message You want us to know:<p>
+            <textarea id="message" name="message" rows=6 cols="12" placeholder="Enter your message here....">           
     </form>
+                
 </body>
 </html>
