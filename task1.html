@@ -70,10 +70,11 @@
       gap: 10px; /* Space between elements */
       max-width: 400px;
       margin: auto;
-      padding: 20px;
-      background-color: #f9f9f9;
+      padding: 30px;
+      background-color: gray;
       border: 1px solid #ccc;
       border-radius: 8px;
+      color: black;
     }
     
     </style>
@@ -111,15 +112,15 @@
     <form action="/js file" method="post">
         <h3>Tell us more about You</h3>
         Full Name:
-            <input type="text" name="name" id="name" placeholder="Enter your official names" required><p>
+            <input type="text" name="name" id="name" size="30" placeholder="Enter your official names" required>
         Email:
-            <input type="text" id="email" name="email" placeholder="Enter your email" required><p>
+            <input type="text" id="email" name="email" placeholder="Enter your email" required>
         DOB:
-            <input type="number" id="dob" name="dob" placeholder="Enter your date of birth" required><p>
+            <input type="date" id="dob" name="dob" placeholder="Enter your date of birth" required>
         Contact:
             <input type="number" id="contact" name="contact" placeholder="Enter your phone number" required><p>
-        Gender:<p>
-            <input type="radio" id="male" name="gender" value="Male">Male<p>
+        Gender:
+            <input type="radio" id="male" name="gender" value="Male">Male
             <input type="radio" id="female" name="gender" value="Female">Female<p>
         Position:
                 <select id="position" name="position">
